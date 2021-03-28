@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D80" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Note" representedClassName="Note" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <relationship name="notedetails" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserDetails" inverseName="note" inverseEntity="UserDetails"/>
+        <relationship name="notelist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserListDB" inverseName="note" inverseEntity="UserListDB"/>
+    </entity>
+    <entity name="UserDetails" representedClassName="UserDetails" syncable="YES">
+        <attribute name="bio" optional="YES" attributeType="String"/>
+        <attribute name="blog" optional="YES" attributeType="String"/>
+        <attribute name="company" optional="YES" attributeType="String"/>
+        <attribute name="created_at" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="followers" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="following" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hireable" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="public_gists" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="public_repos" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="twitter_username" optional="YES" attributeType="String"/>
+        <attribute name="updated_at" optional="YES" attributeType="String"/>
+        <relationship name="note" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Note" inverseName="notedetails" inverseEntity="Note"/>
+    </entity>
+    <entity name="UserListDB" representedClassName="UserListDB" syncable="YES">
+        <attribute name="avatar_url" optional="YES" attributeType="String"/>
+        <attribute name="events_url" optional="YES" attributeType="String"/>
+        <attribute name="followers_url" optional="YES" attributeType="String"/>
+        <attribute name="following_url" optional="YES" attributeType="String"/>
+        <attribute name="gists_url" optional="YES" attributeType="String"/>
+        <attribute name="gravatar_id" optional="YES" attributeType="String"/>
+        <attribute name="html_url" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="login" optional="YES" attributeType="String"/>
+        <attribute name="node_id" optional="YES" attributeType="String"/>
+        <attribute name="organizations_url" optional="YES" attributeType="String"/>
+        <attribute name="received_events_url" optional="YES" attributeType="String"/>
+        <attribute name="repos_url" optional="YES" attributeType="String"/>
+        <attribute name="site_admin" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="starred_url" optional="YES" attributeType="String"/>
+        <attribute name="subscriptions_url" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <relationship name="note" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Note" inverseName="notelist" inverseEntity="Note"/>
+    </entity>
+    <elements>
+        <element name="UserDetails" positionX="433.4766235351562" positionY="56.67002868652344" width="128" height="269"/>
+        <element name="UserListDB" positionX="-63" positionY="-18" width="128" height="314"/>
+        <element name="Note" positionX="218.2562866210938" positionY="104.4949340820312" width="128" height="103"/>
+    </elements>
+</model>
