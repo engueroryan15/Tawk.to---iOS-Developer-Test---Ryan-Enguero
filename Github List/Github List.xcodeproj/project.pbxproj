@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1143678262E5C3100492855 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = F1143677262E5C3100492855 /* check.png */; };
 		F129C85726103CA7003C62EB /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F129C85626103CA7003C62EB /* UserDetail.swift */; };
 		F129C86A26108E93003C62EB /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F129C86826108E93003C62EB /* Note+CoreDataClass.swift */; };
 		F129C86B26108E93003C62EB /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F129C86926108E93003C62EB /* Note+CoreDataProperties.swift */; };
@@ -14,7 +15,6 @@
 		F129C87726108FD0003C62EB /* UserDetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F129C87326108FD0003C62EB /* UserDetails+CoreDataProperties.swift */; };
 		F129C87826108FD0003C62EB /* UserListDB+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F129C87426108FD0003C62EB /* UserListDB+CoreDataClass.swift */; };
 		F129C87926108FD0003C62EB /* UserListDB+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F129C87526108FD0003C62EB /* UserListDB+CoreDataProperties.swift */; };
-		F129C8822610D151003C62EB /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = F129C8812610D150003C62EB /* check.png */; };
 		F164A781260E13DC00D1185E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F164A780260E13DC00D1185E /* AppDelegate.swift */; };
 		F164A783260E13DC00D1185E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F164A782260E13DC00D1185E /* SceneDelegate.swift */; };
 		F164A785260E13DC00D1185E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F164A784260E13DC00D1185E /* ViewController.swift */; };
@@ -51,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1143677262E5C3100492855 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
 		F129C85626103CA7003C62EB /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
 		F129C86826108E93003C62EB /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataClass.swift"; path = "Github List/CoreDataModel/Note+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F129C86926108E93003C62EB /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "Github List/CoreDataModel/Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		F129C87326108FD0003C62EB /* UserDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UserDetails+CoreDataProperties.swift"; path = "Github List/CoreDataModel/UserDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F129C87426108FD0003C62EB /* UserListDB+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UserListDB+CoreDataClass.swift"; path = "Github List/CoreDataModel/UserListDB+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F129C87526108FD0003C62EB /* UserListDB+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UserListDB+CoreDataProperties.swift"; path = "Github List/CoreDataModel/UserListDB+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		F129C8812610D150003C62EB /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check.png; path = ../../../../../Downloads/check.png; sourceTree = "<group>"; };
 		F164A77D260E13DC00D1185E /* Github List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F164A780260E13DC00D1185E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F164A782260E13DC00D1185E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		F129C8802610D139003C62EB /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				F129C8812610D150003C62EB /* check.png */,
+				F1143677262E5C3100492855 /* check.png */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -328,8 +328,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F164A790260E13DE00D1185E /* LaunchScreen.storyboard in Resources */,
-				F129C8822610D151003C62EB /* check.png in Resources */,
 				F164A78D260E13DE00D1185E /* Assets.xcassets in Resources */,
+				F1143678262E5C3100492855 /* check.png in Resources */,
 				F164A788260E13DC00D1185E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
